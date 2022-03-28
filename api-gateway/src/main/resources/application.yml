@@ -24,3 +24,18 @@ spring:
           uri: http://localhost:8082/api/v1/userLookup/**
           predicates:
             - Path=/api/v1/userLookup/**
+
+        - id: bankAccCmdApi-OpenAccount
+          uri: http://localhost:9891/api/v1/openBankAccount
+          predicates:
+            - Path=/api/v1/openBankAccount
+
+        - id: bankAccCmdApi-closeAccount
+          uri: http://localhost:9891/api/v1/closeBankAccount/**
+          predicates:
+            - Path=/api/v1/closeBankAccount/**
+
+        - id: bankAccQueryApi
+          uri: http://localhost:9892/api/v1/bankAccountLookup/**
+          predicates:
+            - Path=/api/v1/bankAccountLookup/**
