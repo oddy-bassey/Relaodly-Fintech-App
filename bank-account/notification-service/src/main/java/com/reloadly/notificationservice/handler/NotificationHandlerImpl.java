@@ -21,7 +21,7 @@ public class NotificationHandlerImpl implements NotificationHandler {
     @Override
     public void on(OpenedAccountNotificationEvent event) {
         sendCustomNotification(
-                "lednontnovo@gmail.com",
+                "lednontnovo@gmail.com", // replace with organisations mail
                 event.getEmail(), "Bank Account Alert",
                 String.format("Hi %s, your account with id %S has been created successfully."
                         ,event.getAccountName(), event.getAccountId()));

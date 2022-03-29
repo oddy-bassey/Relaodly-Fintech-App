@@ -39,3 +39,13 @@ spring:
           uri: http://localhost:9892/api/v1/bankAccountLookup/**
           predicates:
             - Path=/api/v1/bankAccountLookup/**
+
+        - id: transactionCmdApi
+          uri: http://localhost:9893/api/v1/transactions/**
+          predicates:
+            - Path=/api/v1/transactions/**
+
+        - id: transactionQueryApi
+          uri: http://localhost:9894/api/v1/transactionLookup/**
+          predicates:
+            - Path=/api/v1/transactionLookup/**
