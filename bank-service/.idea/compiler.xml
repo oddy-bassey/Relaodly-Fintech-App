@@ -7,12 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bankacc.query.api" />
+        <module name="transaction.query.api" />
         <module name="transaction.cmd.api" />
         <module name="bankacc.cmd.api" />
-        <module name="bankacc.query.api" />
+        <module name="transaction.processor.api" />
         <module name="bank.core" />
         <module name="notification-service" />
-        <module name="transaction.query.api" />
       </profile>
     </annotationProcessing>
   </component>
@@ -23,6 +24,7 @@
       <module name="bankacc.query.api" options="-parameters" />
       <module name="notification-service" options="-parameters" />
       <module name="transaction.cmd.api" options="-parameters" />
+      <module name="transaction.processor.api" options="-parameters" />
       <module name="transaction.query.api" options="-parameters" />
     </option>
   </component>
