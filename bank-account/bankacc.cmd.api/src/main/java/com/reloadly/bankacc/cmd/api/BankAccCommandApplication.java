@@ -1,6 +1,6 @@
 package com.reloadly.bankacc.cmd.api;
 
-import com.reloadly.bankacc.core.configuration.AxonConfig;
+import com.reloadly.bank.core.configuration.AxonConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

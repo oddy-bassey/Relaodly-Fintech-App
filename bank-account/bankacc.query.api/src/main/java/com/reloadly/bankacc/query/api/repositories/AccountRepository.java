@@ -1,6 +1,6 @@
 package com.reloadly.bankacc.query.api.repositories;
 
-import com.reloadly.bankacc.core.models.BankAccount;
+import com.reloadly.bank.core.models.BankAccount;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

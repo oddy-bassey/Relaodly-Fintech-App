@@ -7,17 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="bankacc.core" />
+        <module name="transaction.cmd.api" />
         <module name="bankacc.cmd.api" />
         <module name="bankacc.query.api" />
+        <module name="bank.core" />
+        <module name="notification-service" />
+        <module name="transaction.query.api" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bank.core" options="-parameters" />
       <module name="bankacc.cmd.api" options="-parameters" />
-      <module name="bankacc.core" options="-parameters" />
       <module name="bankacc.query.api" options="-parameters" />
+      <module name="notification-service" options="-parameters" />
+      <module name="transaction.cmd.api" options="-parameters" />
+      <module name="transaction.query.api" options="-parameters" />
     </option>
   </component>
 </project>

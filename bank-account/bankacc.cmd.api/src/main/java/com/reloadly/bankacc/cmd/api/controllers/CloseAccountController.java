@@ -2,7 +2,7 @@ package com.reloadly.bankacc.cmd.api.controllers;
 
 
 import com.reloadly.bankacc.cmd.api.commands.CloseAccountCommand;
-import com.reloadly.bankacc.core.dto.BaseResponse;
+import com.reloadly.bank.core.dto.BaseResponse;
 import lombok.extern.slf4j.Slf4j;
 import org.axonframework.commandhandling.gateway.CommandGateway;
 import org.springframework.http.HttpStatus;

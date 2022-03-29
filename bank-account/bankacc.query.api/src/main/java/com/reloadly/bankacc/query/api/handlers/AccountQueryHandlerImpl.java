@@ -1,6 +1,6 @@
 package com.reloadly.bankacc.query.api.handlers;
 
-import com.reloadly.bankacc.core.models.BankAccount;
+import com.reloadly.bank.core.models.BankAccount;
 import com.reloadly.bankacc.query.api.dto.AccountLookupResponse;
 import com.reloadly.bankacc.query.api.dto.EqualityType;
 import com.reloadly.bankacc.query.api.queries.FindAccountByHolderIdQuery;

@@ -1,6 +1,6 @@
 package com.reloadly.bankacc.cmd.api.dto;
 
-import com.reloadly.bankacc.core.dto.BaseResponse;
+import com.reloadly.bank.core.dto.BaseResponse;
 
 public class OpenAccountResponse extends BaseResponse {
     private String id;

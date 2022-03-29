@@ -1,6 +1,6 @@
 package com.reloadly.bankacc.query.api;
 
-import com.reloadly.bankacc.core.configuration.AxonConfig;
+import com.reloadly.bank.core.configuration.AxonConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
@@ -11,7 +11,7 @@ import org.springframework.security.oauth2.config.annotation.web.configuration.E
 @SpringBootApplication
 @EnableResourceServer
 @EnableGlobalMethodSecurity(prePostEnabled = true)
-@EntityScan(basePackages = "com.reloadly.bankacc.core.models")
+@EntityScan(basePackages = "com.reloadly.bank.core.models")
 @Import(AxonConfig.class)
 public class BankAccQueryApplication {
 

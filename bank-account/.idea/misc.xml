@@ -8,6 +8,10 @@
         <option value="$PROJECT_DIR$/bankacc.query.api/pom.xml" />
         <option value="$PROJECT_DIR$/bankacc.core/pom.xml" />
         <option value="$PROJECT_DIR$/bankacc.cmd.api/pom.xml" />
+        <option value="$PROJECT_DIR$/transaction.cmd.api/pom.xml" />
+        <option value="$PROJECT_DIR$/bank.core/pom.xml" />
+        <option value="$PROJECT_DIR$/transaction.query.api/pom.xml" />
+        <option value="$PROJECT_DIR$/notification-service/pom.xml" />
       </list>
     </option>
   </component>

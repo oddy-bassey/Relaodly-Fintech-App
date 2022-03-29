@@ -1,7 +1,7 @@
 package com.reloadly.bankacc.query.api.dto;
 
-import com.reloadly.bankacc.core.dto.BaseResponse;
-import com.reloadly.bankacc.core.models.BankAccount;
+import com.reloadly.bank.core.dto.BaseResponse;
+import com.reloadly.bank.core.models.BankAccount;
 
 import java.util.ArrayList;
 import java.util.List;

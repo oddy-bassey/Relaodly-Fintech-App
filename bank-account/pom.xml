@@ -5,13 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.example</groupId>
-    <artifactId>bank-account</artifactId>
+    <artifactId>bank</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>bankacc.core</module>
+        <module>bank.core</module>
         <module>bankacc.cmd.api</module>
         <module>bankacc.query.api</module>
+        <module>transaction.cmd.api</module>
+        <module>transaction.query.api</module>
     </modules>
 </project>

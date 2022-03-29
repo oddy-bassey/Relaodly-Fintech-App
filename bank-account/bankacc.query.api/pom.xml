@@ -49,7 +49,7 @@
 		<!-- bank account core dependency -->
 		<dependency>
 			<groupId>com.reloadly</groupId>
-			<artifactId>bankacc.core</artifactId>
+			<artifactId>bank.core</artifactId>
 			<version>1.0.0</version>
 		</dependency>
 
